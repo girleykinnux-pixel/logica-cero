@@ -1,0 +1,96 @@
+/* ===================================================
+   ESTILOS DE SOBRE NOSOTROS (MISIÓN & VISIÓN)
+   =================================================== */
+
+.mv-card {
+    background-color: #EFECE6;
+    border: 1px solid #E2DDD5;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px #f0ebeb08;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.dark-mv-card {
+    background-color: var(--color-card-dark);
+    border: none;
+}
+
+.dark-mv-card .section-tag {
+    color: #00B074 !important;
+    font-weight: 800;
+}
+
+.dark-mv-card h3 {
+    color: #FFFFFF !important;
+}
+
+.dark-mv-card p {
+    color: #E2E8F0 !important;
+}
+
+.mv-icon-badge {
+    width: 45px;
+    height: 45px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.green-badge {
+    background-color: rgba(72, 248, 189, 0.801);
+}
+
+.mv-card h3 {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    color: var(--color-dark);
+    margin-bottom: 15px;
+}
+
+.mv-card p {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+}
+
+/* Tarjetas de Pilares */
+.pilar-card {
+    background-color: #FFFFFF;
+    padding: 35px 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+    border: 1px solid #E2E8F0;
+    transition: transform 0.2s ease;
+}
+
+.pilar-card:hover {
+    transform: translateY(-5px);
+}
+
+.pilar-num {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-green);
+    margin-bottom: 15px;
+}
+
+.pilar-card h3 {
+    font-size: 1.15rem;
+    color: var(--color-dark);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.pilar-card p {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+}

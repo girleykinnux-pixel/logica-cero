@@ -1,0 +1,133 @@
+/* VARIABLES GLOBALES Y RESET BASE */
+:root {
+    --bg-main: #F8F6F0;           /* Beige exacto del fondo */
+    --color-dark: #0A2218;        /* Verde muy oscuro corporativo */
+    --color-green: #00B074;       /* Verde brillante LógicaCero */
+    --color-blue: #0066FF;        /* Azul brillante */
+    --color-card-dark: #253458;   /* Azul noche tarjetas oscuras */
+    --text-main: #2D3748;
+    --text-muted: #64748B;
+    --font-sans: 'Montserrat', sans-serif;
+    --font-serif: 'Playfair Display', Georgia, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-main);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* CONTENEDORES Y REGLAS DE REUTILIZACIÓN */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.section-alt {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section-tag {
+    display: inline-block;
+    color: var(--color-primary-dark);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.highlight {
+    color: var(--color-accent);
+}
+
+/* BOTONES GLOBALES */
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.btn-primary {
+    background-color: var(--color-primary-dark);
+    color: #FFFFFF;
+}
+
+.btn-primary:hover {
+    background-color: #0c3825;
+    transform: translateY(-2px);
+}
+
+.btn-outline {
+    border-color: var(--color-primary-dark);
+    color: var(--color-primary-dark);
+}
+
+.btn-outline:hover {
+    background-color: var(--color-primary-dark);
+    color: #FFFFFF;
+}
+
+.block-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/* GRIDS RESPONSIVOS */
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    align-items: center;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}

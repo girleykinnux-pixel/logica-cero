@@ -1,0 +1,76 @@
+/* NAVBAR Y ENCABEZADO */
+.navbar {
+    padding: 20px 0;
+    background-color: var(--bg-main);
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.brand-title {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--color-dark);
+}
+
+.brand-slogan {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    letter-spacing: 0.5px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-main);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.nav-links a.active {
+    color: var(--color-green);
+    border-bottom: 2px solid var(--color-green);
+    padding-bottom: 4px;
+}
+
+.btn-nav {
+    background-color: var(--color-dark);
+    color: #FFFFFF;
+    padding: 10px 22px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+.btn-nav:hover {
+    opacity: 0.9;
+}
+
+.brand-logo-img {
+    height: 40px;        /* Ajusta esta altura según tu gusto (ej: 35px a 50px) */
+    width: auto;         /* Mantiene la proporción de la imagen sin deformarla */
+    object-fit: contain;
+    display: block;
+}

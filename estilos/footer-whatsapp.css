@@ -1,0 +1,124 @@
+.cta-banner {
+    background-color: var(--color-card-dark);
+    padding: 50px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.pill-badge-dark {
+    background-color: rgba(0, 176, 116, 0.2);
+    color: var(--color-green);
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.text-white { color: #FFFFFF !important; }
+.text-white-sub { color: #94A3B8; margin-bottom: 25px; max-width: 600px; }
+
+.btn-green {
+    background-color: var(--color-green);
+    color: #FFFFFF;
+}
+
+/* ESTILOS GLOBALES DEL FOOTER */
+.footer {
+    background-color: #070B14;
+    color: #FFFFFF;
+    padding: 60px 0;
+    margin-top: 60px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 40px;
+}
+
+.logo-brand.light .brand-title {
+    color: #FFFFFF;
+}
+
+.footer-slogan {
+    font-size: 0.85rem;
+    color: #94A3B8;
+    margin: 10px 0 5px;
+}
+
+.footer-desc {
+    font-size: 0.8rem;
+    color: #64748B;
+    line-height: 1.5;
+}
+
+.footer-heading {
+    font-size: 0.8rem;
+    color: #00B074;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #94A3B8;
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #00B074;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social-box {
+    width: 36px;
+    height: 36px;
+    background-color: var(--color-card-dark);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+    transition: background-color 0.2s ease;
+}
+
+.social-box:hover {
+    background-color: #00B074;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: var(--color-green);
+    color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}

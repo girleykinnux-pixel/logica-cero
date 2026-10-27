@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctenos - LógicaCero</title>
+    
+    <!-- FUENTES GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+       
+    <!-- Integración de Archivos CSS -->
+    <link rel="stylesheet" href="estilos/base.css">
+    <link rel="stylesheet" href="estilos/navbar.css">
+    <link rel="stylesheet" href="estilos/contacto.css">
+    <link rel="stylesheet" href="estilos/footer-whatsapp.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo-brand">
+                <img src="img/logo.png" alt="LógicaCero Logo" class="brand-logo-img">
+                <div class="logo-text">
+                    <span class="brand-title">LógicaCero</span>
+                    <span class="brand-slogan">CONSULTORÍA EN EFICIENCIA</span>
+                </div>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html" class="active">Contáctenos</a></li>
+            </ul>
+
+            <a href="https://forms.gle/AemDUmdGevbqnVRs8" target="_blank" class="btn-nav">
+                Solicitar Auditoría &rarr;
+            </a>
+        </div>
+    </nav>
+
+<!-- SECCIÓN CONTACTO -->
+    <section class="section">
+        <div class="container grid-2">
+            <!-- COLUMNA IZQUIERDA -->
+            <div class="contacto-info-col">
+                <span class="section-tag">CONTÁCTENOS</span>
+                <h1 class="serif-title">Impulsa tu plataforma hacia el siguiente nivel de eficiencia</h1>
+                <p class="section-lead">¿Listo para optimizar tus costes operativos y reducir la huella de carbono de tu software?</p>
+
+                <!-- TARJETA GOOGLE FORMS -->
+                <div class="google-form-card">
+                    <div class="card-tag">AUDITORÍA PRIORITARIA</div>
+                    <h3>Auditar Mi Plataforma</h3>
+                    <p>Completa nuestro formulario oficial para solicitar tu primera auditoría técnica detallada.</p>
+                    <a href="https://forms.gle/AemDUmdGevbqnVRs8" target="_blank" class="btn btn-green block-btn">
+                        Clic aqui, para auditoria inicial
+                    </a>
+                </div>
+
+                <div class="contact-details">
+                    <p><strong>WhatsApp Directo:</strong> +57 3503994673</p>
+                    <p><strong>Correo Electrónico:</strong> logicacero.tech@gmail.com</p>
+                    <p><strong>Razón Social:</strong> LógicaCero Consultoría S.A.S.</p>
+                </div>
+            </div>
+
+            <!-- COLUMNA DERECHA: FORMULARIO DIRECTO -->
+            <div class="contact-form-wrapper">
+                <h3>Envíanos un mensaje rápido</h3>
+                <form action="#" method="POST" onsubmit="alert('¡Gracias por comunicarte con LógicaCero!'); return false;">
+                    <div class="form-group">
+                        <label>Nombre Completo</label>
+                        <input type="text" placeholder="Ej. Juan Pérez" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Correo Corporativo</label>
+                        <input type="email" placeholder="juan@empresa.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Empresa / Proyecto</label>
+                        <input type="text" placeholder="Nombre de tu empresa">
+                    </div>
+                    <div class="form-group">
+                        <label>Mensaje</label>
+                        <textarea rows="4" placeholder="Detállanos brevemente los problemas de rendimiento o infraestructura de tu software..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark block-btn">Enviar Consulta</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <div class="logo-brand light">
+                    <img src="img/logo.png" alt="LógicaCero Logo" class="brand-logo-img">
+                    <span class="brand-title text-white">LógicaCero</span>
+                </div>
+                <p class="footer-slogan">Slogan: <em>"Software ligero, impacto gigante."</em></p>
+                <p class="footer-desc">Especializados en auditar, optimizar y reducir costos operativos y la huella de carbono de plataformas digitales.</p>
+            </div>
+
+            <div>
+                <h4 class="footer-heading">NAVEGACIÓN</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="servicios.html">Servicios de Eficiencia</a></li>
+                    <li><a href="contacto.html">Contáctenos</a></li>
+                    <li><a href="https://forms.gle/AemDUmdGevbqnVRs8" target="_blank">Auditoría Google Form</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="footer-heading">REDES SOCIALES & CONTACTO</h4>
+                <p class="footer-desc">Síguenos e interactúa con nuestro equipo:</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/logicacero.tech/" class="social-box" target="_blank">ig</a>
+                    <a href="https://forms.gle/AemDUmdGevbqnVRs8" class="social-box" target="_blank">&#120120;</a>
+                    <a href="https://wa.me/573503994673" target="_blank" class="social-box">&#128172;</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÓN WHATSAPP -->
+    <a href="https://wa.me/573503994673" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        &#128172;
+    </a>
+
+</body>
+</html>

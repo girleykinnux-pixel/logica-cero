@@ -1,0 +1,104 @@
+/* SECCIÓN Y REGRID DE SERVICIOS */
+.services-grid {
+    margin-top: 50px;
+}
+
+/* ESTILOS DE CADA TARJETA DE SERVICIO */
+.service-card {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 35px 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    border: 1px solid #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.service-code {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #6B7280;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.service-card h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #114B32;
+    margin-bottom: 12px;
+    line-height: 1.3;
+}
+
+.service-card p {
+    color: #4B5563;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* CAJA DE RESULTADO (SERVICIO 01) */
+.service-result {
+    background-color: #F7F5EE;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: #1F2937;
+    border-left: 3px solid #10B981;
+}
+
+/* TARJETA DESTACADA (SERVICIO 03) */
+.highlight-card {
+    border: 2px solid #0066FF;
+    position: relative;
+}
+
+.stat-badge {
+    background-color: #0066FF;
+    color: #FFFFFF;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    display: inline-block;
+    align-self: flex-start;
+}
+
+/* TARJETA DE ANCHO COMPLETO (SERVICIO 07) */
+.full-width-card {
+    grid-column: 1 / -1;
+    background-color: #114B32;
+    color: #FFFFFF;
+    border: none;
+}
+
+.full-width-card .service-code {
+    color: #10B981;
+}
+
+.full-width-card h3,
+.full-width-card p {
+    color: #FFFFFF;
+}
+
+.full-width-card .btn-primary {
+    background-color: #10B981;
+    color: #114B32;
+    font-weight: 700;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+.full-width-card .btn-primary:hover {
+    background-color: #0ea5e9;
+    color: #FFFFFF;
+}
